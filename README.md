@@ -20,9 +20,9 @@ lilygo-epd47 墨水屏顶部虽然有两个VCC,但休眠后此处vcc会断开给
    https://item.taobao.com/item.htm?id=575345145498 <br/>
 2.FPC转接板0.5转2.54 6P 1块<br/>
    https://item.taobao.com/item.htm?id=574894948498 <br/>
-3.2.0转2.54线头 1根
-   https://item.taobao.com/item.htm?id=562345588560
-通过以上配件，引出墨水屏给触摸屏供电的VCC,GND接到DS3231时钟模块 <br/>
+3.2.0转2.54线头 1根<br/>
+   https://item.taobao.com/item.htm?id=562345588560<br/>
+用以上配件引出墨水屏给触摸屏供电的VCC,GND，接到DS3231时钟模块的VCC,GND <br/>
 
 <img src= 'https://github.com/lixy123/lilygo_epd47_time_show_weather/blob/main/ink1.jpg?raw=true' /> <br/>
 <img src= 'https://github.com/lixy123/lilygo_epd47_time_show_weather/blob/main/ink2.jpg?raw=true' /> <br/>
