@@ -4,9 +4,9 @@
 
    
 <b>二.硬件</b>  <br/>
-1. lilygo-epd47 4.7寸墨水屏 <br/>
-2. 18650电池 <br/>
-3. ds3231 时钟模块 <br/>
+1.lilygo-epd47 4.7寸墨水屏 <br/>
+2.18650电池 <br/>
+3.ds3231 时钟模块 <br/>
 连线: <br/>
 ESP32 ==>DS3231 <br/>
 3.3V 3.3v <br/>
@@ -20,7 +20,7 @@ lilygo-epd47 墨水屏顶部虽然有两个VCC,但休眠后此处vcc会断开给
 需要用到如下配件： <br/>
 1.0.5mm 6p 同向 FPC <br/>
    https://item.taobao.com/item.htm?id=575345145498 <br/>
-2. FPC转接板0.5转2.54 6P <br/>
+2.FPC转接板0.5转2.54 6P <br/>
    https://item.taobao.com/item.htm?id=574894948498 <br/>
 通过以上配件，引出墨水屏给触摸屏供电的VCC,GND接到DS3231时钟模块 <br/>
 
