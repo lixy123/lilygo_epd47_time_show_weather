@@ -18,10 +18,12 @@ GND GND <br/>
 lilygo-epd47 墨水屏顶部虽然有两个VCC,但休眠后此处vcc会断开给ds3231的供电，导致DS3231时钟会重置,无法用时钟模块 <br/>
 需要用墨水屏给触摸屏供电接口位置的3.3V,GND <br/>
 需要用到如下配件： <br/>
-1.0.5mm 6p 同向 FPC 100mm <br/>
+1.0.5mm 6p 同向 FPC 100mm 1条<br/>
    https://item.taobao.com/item.htm?id=575345145498 <br/>
-2.FPC转接板0.5转2.54 6P <br/>
+2.FPC转接板0.5转2.54 6P 1块<br/>
    https://item.taobao.com/item.htm?id=574894948498 <br/>
+3.2.0转2.54线头 1根
+   https://item.taobao.com/item.htm?id=562345588560
 通过以上配件，引出墨水屏给触摸屏供电的VCC,GND接到DS3231时钟模块 <br/>
 
 
