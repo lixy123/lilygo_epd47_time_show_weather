@@ -41,7 +41,7 @@ ds3231时钟模块驱动 RTClib 最新版本<br/>
 C.开发板选择：TTGO-T-WATCH 参数选默认<br/>
 D.选择端口，点击烧录<br/>
 注：<br/>
-1.config.h 文件需要修改 jisuapi_key处的极速天气key <br/>
+1.源码config.h处需修改 jisuapi_key处的极速天气key <br/>
 key获取地址：https://www.jisuapi.com/api/weather/<br/>
 2.首次运行时ESP32需要配置wifi连接，代码中用到了 ESP32 SmartConfig 配网技术,<br/>
 参考:https://www.zhangtaidong.cn/archives/124/ 微信扫描配置wifi网络.否则会每120秒重启,直到正确配置好WIFI.<br/>
