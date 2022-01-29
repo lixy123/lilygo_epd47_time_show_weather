@@ -26,6 +26,8 @@ lilygo-epd47 墨水屏顶部虽然有两个VCC,但休眠后此处vcc会断开给
    https://item.taobao.com/item.htm?id=562345588560
 通过以上配件，引出墨水屏给触摸屏供电的VCC,GND接到DS3231时钟模块 <br/>
 
+<img src= 'https://github.com/lixy123/lilygo_epd47_time_show_weather/blob/main/ink1.jpg?raw=true' /> <br/>
+<img src= 'https://github.com/lixy123/lilygo_epd47_time_show_weather/blob/main/ink2.jpg?raw=true' /> <br/>
 
 <b>三.代码:</b><br/>
 烧录到ESP32开发板<br/>
