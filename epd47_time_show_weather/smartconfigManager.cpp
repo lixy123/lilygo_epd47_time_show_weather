@@ -48,7 +48,14 @@ bool smartconfigManager::smartConfig(int try_num)
     }
     if (WiFi.smartConfigDone())//获取到之后退出等待
     {
-      Serial.println("SmartConfig Success");
+       Serial.println("SmartConfig Success");
+      //等待连接上, 如果无以下3语句，WiFi.SSID() 会返回空
+      while (WiFi.status() != WL_CONNECTED) {
+        delay(1000);
+        Serial.print("@");
+      }
+
+      Serial.println("wifi connect Success");
       //打印获取到的wifi名称和密码
       Serial.printf("SSID:%s\r\n", WiFi.SSID().c_str());
       Serial.printf("PSW:%s\r\n", WiFi.psk().c_str());
@@ -117,7 +124,14 @@ bool smartconfigManager::connectwifi()
 
   if (connect_ok)
   {
-    delay(5000); //很重要，待生效！
+    delay(1000);
+    //确保真正连接完毕
+    while (WiFi.status() != WL_CONNECTED) {
+      delay(1000);
+      Serial.print("#");
+    }
+
+
     Serial.println("Connected");
     Serial.println("My Local IP is : ");
     Serial.println(WiFi.localIP());
@@ -127,7 +141,7 @@ bool smartconfigManager::connectwifi()
     if (first_boot)
     {
       Serial.println("smartConfig配网失败，重启！");
-      Serial.flush();      
+      Serial.flush();
       esp_restart();
     }
     else
