@@ -8,7 +8,7 @@
 
 <b>三.代码:</b><br/>
 烧录到ESP32开发板<br/>
-A.软件: arduino 1.8.13<br/>
+A.软件: arduino 1.8.19<br/>
 B.用到库文件:<br/>
 https://github.com/espressif/arduino-esp32 版本:1.0.6<br/>
 https://github.com/bblanchon/ArduinoJson 版本: 6<br/>
