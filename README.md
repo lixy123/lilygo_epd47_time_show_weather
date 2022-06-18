@@ -4,7 +4,8 @@
    
 <b>二.硬件</b>  <br/>
 1.lilygo-epd47 4.7寸墨水屏 + 18650电池 <br/>
-<img src= 'https://github.com/lixy123/lilygo_epd47_time_show_weather/blob/main/ink1.jpg?raw=true' /> <br/>
+<img src= 'https://github.com//lilygo_epd47_time_show_weather/blob/main/1.jpg?raw=true' /> <br/>
+<img src= 'https://github.com//lilygo_epd47_time_show_weather/blob/main/2.jpg?raw=true' /> <br/>
 
 <b>三.代码:</b><br/>
 烧录到ESP32开发板<br/>
