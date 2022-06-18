@@ -1,12 +1,12 @@
 <b>一.功能：</b> <br/>
 1.lilygo 4.7寸墨水屏每日上午7点唤醒后显示天气, <br/> 
-2.待机状态低能耗约0.5-2ma.  每天唤醒1次，电流约70ma, 一般16秒后进入休眠待机状态， 18650电池供电理论预期应在3-5个月<br/>
+2.待机状态低能耗约0.24ma.  每天唤醒1次，电流约70ma, 一般16秒后进入休眠待机状态， 18650电池供电理论预期应在3-5个月<br/>
    
 <b>二.硬件</b>  <br/>
 1.lilygo-epd47 4.7寸墨水屏 + 18650电池 <br/>
 
 <img src= 'https://github.com/lixy123/lilygo_epd47_time_show_weather/blob/main/ink1.jpg?raw=true' /> <br/>
-<img src= 'https://github.com/lixy123/lilygo_epd47_time_show_weather/blob/main/ink2.jpg?raw=true' /> <br/>
+
 
 <b>三.代码:</b><br/>
 烧录到ESP32开发板<br/>
